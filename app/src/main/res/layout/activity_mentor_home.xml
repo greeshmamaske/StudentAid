@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MentorHome">
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="364dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="275dp"
+        android:ems="10"
+        android:longClickable="false"
+        android:focusable="false"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:layout_centerHorizontal="true"
+        android:text="WELCOME TO THE MENTORSHIP PORTAL\n\nYou can request for a mentor
+here. A mentor will be your immediate senior who can guide you through your academic year
+and help you out with your class doubts and placement doubts. You can also seek experience
+of your seniors with placements by reading the various placement blogs below:-"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:text="Request Mentor"
+        android:layout_marginTop="400dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="138dp"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="550dp"
+        android:text="Placement Blog"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="484dp" />
+</RelativeLayout>

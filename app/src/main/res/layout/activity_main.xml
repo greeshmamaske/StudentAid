@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="175dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:adjustViewBounds="true"
+        android:clickable="false"
+        android:cropToPadding="false"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/books"
+        android:contentDescription="todo" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="  Email"
+        android:importantForAutofill="yes"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="  Password"
+        android:importantForAutofill="yes"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:text="Don't Have An Account? Sign Up!"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:text="Sign In"
+        android:layout_below="@+id/editText2"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+</RelativeLayout>
